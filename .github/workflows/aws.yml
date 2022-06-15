@@ -36,7 +36,7 @@ env:
   ECR_REPOSITORY: homelab          # set this to your Amazon ECR repository name
   ECS_SERVICE: sample-app-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: PassManager                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: first-run-task-definition:1 # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: https://us-east-1.console.aws.amazon.com/ecs/home?region=us-east-1#/taskDefinitions/first-run-task-definition/1 # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: PassMan           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
